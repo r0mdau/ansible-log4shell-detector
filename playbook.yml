@@ -3,4 +3,4 @@
   vars_files:
     - vars/main.yml
   roles:
-    - { role: log4shell-detector }
+    - { role: r0mdau.log4shell_detector }

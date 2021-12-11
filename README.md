@@ -6,8 +6,8 @@ You will find more informations in the role README.
 
 ## Quick start
 
-    git clone https://github.com/r0mdau/ansible-log4shell-detector-playbook.git
-    cd ansible-log4shell-detector-playbook
+    git clone https://github.com/r0mdau/ansible-log4shell-detector.git
+    cd ansible-log4shell-detector
     ansible-galaxy install r0mdau.log4shell_detector
 
 Edit hosts/inventory or use any other ansible inventory.
