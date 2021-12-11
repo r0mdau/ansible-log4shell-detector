@@ -16,6 +16,11 @@ Finally launch the playbook
 
     ansible-playbook -i hosts/inventory playbook.yml
 
+Example to read output file with jq
+
+    cat log4shell_192.168.56.11.log | jq .stdout_lines
+
+
 ## Informations
 
 Python script [log4shell-detector](https://github.com/Neo23x0/log4shell-detector) by Neo23x0.
