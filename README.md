@@ -12,6 +12,8 @@ You will find more informations in the role README.
 
 Edit hosts/inventory or use any other ansible inventory.
 
+Finally launch the playbook
+
     ansible-playbook -i hosts/inventory playbook.yml
 
 ## Informations
