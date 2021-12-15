@@ -18,9 +18,10 @@ Finally launch the playbook
 
 Example to read output file with jq
 
-    cat log4shell_192.168.56.11.log | jq .stdout_lines
+    cat log4shell_detector_192.168.56.11.log | jq .stdout_lines
 
 
 ## Informations
 
-Python script [log4shell-detector](https://github.com/Neo23x0/log4shell-detector) by Neo23x0.
+Python tool [log4shell-detector](https://github.com/Neo23x0/log4shell-detector) by Neo23x0.
+Secon scan Go tool [local-log4j-vuln-scanner](https://github.com/hillu/local-log4j-vuln-scanner) by hillu.
