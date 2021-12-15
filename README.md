@@ -14,7 +14,7 @@ Edit hosts/inventory or use any other ansible inventory.
 
 Finally launch the playbook
 
-    ansible-playbook -i hosts/inventory playbook.yml
+    ansible-playbook -i hosts/inventory -K playbook.yml
 
 Example to read output file with jq
 
